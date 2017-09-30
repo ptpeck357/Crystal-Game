@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Week 4 Game</title>
+	
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+	 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="header">
+		<h1 id="title">Crystal Collector!</h1>
+	</div>
+
+	<div class="paragraph">
+		<p>
+			You will be given a random number at the start of the game.
+		</p>
+		
+		<br>
+
+		<p>
+			There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.
+		</p>
+		
+		<br>
+
+		<p>
+			You win the game by matching your total score to random number, you lose the game if your total score goes over the random number.
+		</p>
+
+		<br>
+
+		<p>
+			The value of each crystal is hidden from you until you click on it.
+		</p>
+
+		<br>
+
+		<p>
+			Each time when the game starts, the game will change the values of each crystal.
+		</p>
+
+	</div>
+
+	<div class="randomnumber">
+		<div id="chosennumber"></div>
+			<br>
+		<div id ="totalpoints"></div>
+	</div>
+
+	<div class="wins">
+		<p id="wins">Wins</p> 
+		<br> 
+		<p id="loses">Loses</p>
+		</div>
+
+	<div class="crystals"> 
+		<img src="./assets/images/bluegem.jpg" class="blue" height="100">
+		<img src="./assets/images/purple.jpg" class="image purple" height="100"> 
+		<img src="./assets/images/redgem.jpg" class="image red" height="100"> 
+		<img src="./assets/images/yellow.jpg" class="image yellow" height="100">
+	</div>
+
+	<div class="totalscore"></div>
+
+	<script src="./assets/javascript/game.js"></script>
+ 
+</body>
+</html>

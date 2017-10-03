@@ -15,7 +15,7 @@ var crystalvalue;
    	//Generates random number for each crystal and target crystal
 	crystalvalue =Math.floor(Math.random() * 120) + 19;
 
-   	gemOneValue = Math.floor(Math.random() * 12 + 1);
+  gemOneValue = Math.floor(Math.random() * 12 + 1);
 
 	gemTwoValue = Math.floor(Math.random() * 12 + 1);
 

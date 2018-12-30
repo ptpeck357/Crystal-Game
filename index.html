@@ -5,72 +5,75 @@
 	<title>Week 4 Game</title>
 	
 	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
-	 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
 
 <body>
+	<!-- <div class="container"> -->
+		<div id="section">
+			<div class="header">
+				<h1 id="title">Crystal Collector!</h1>
+			</div>
 
-	<div class="header">
-		<h1 id="title">Crystal Collector!</h1>
-	</div>
+			<div class="paragraph">
+				<p>
+					You will be given a random number at the start of the game.
+				</p>
+				
+				<br>
 
-	<div class="paragraph">
-		<p>
-			You will be given a random number at the start of the game.
-		</p>
-		
-		<br>
+				<p>
+					There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.
+				</p>
+				
+				<br>
 
-		<p>
-			There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.
-		</p>
-		
-		<br>
+				<p>
+					You win the game by matching your total score to random number, you lose the game if your total score goes over the random number.
+				</p>
 
-		<p>
-			You win the game by matching your total score to random number, you lose the game if your total score goes over the random number.
-		</p>
+				<br>
 
-		<br>
+				<p>
+					The value of each crystal is hidden from you until you click on it.
+				</p>
 
-		<p>
-			The value of each crystal is hidden from you until you click on it.
-		</p>
+				<br>
 
-		<br>
+				<p>
+					Each time when the game starts, the game will change the values of each crystal.
+				</p>
 
-		<p>
-			Each time when the game starts, the game will change the values of each crystal.
-		</p>
+			</div>
 
-	</div>
+			<div class="randomnumber">
+				<div id="chosennumber"></div>
+					<br>
+				<div id ="totalpoints"></div>
+			</div>
 
-	<div class="randomnumber">
-		<div id="chosennumber"></div>
-			<br>
-		<div id ="totalpoints"></div>
-	</div>
+			<div class="wins">
+				<p id="wins">Wins</p> 
+				<br> 
+				<p id="loses">Loses</p>
+				</div>
 
-	<div class="wins">
-		<p id="wins">Wins</p> 
-		<br> 
-		<p id="loses">Loses</p>
-		</div>
+			<div class="crystals"> 
+				<img src="./assets/images/bluegem.jpg" value="gem1" class=" gem" height="75">
+				<img src="./assets/images/purple.jpg" value="gem2" class="image gem" height="75"> 
+				<img src="./assets/images/redgem.jpg" value="gem3" class="image gem" height="75"> 
+				<img src="./assets/images/yellow.jpg" value="gem4" class="image gem" height="75">
+			</div>
 
-	<div class="crystals"> 
-		<img src="./assets/images/bluegem.jpg" value="gem1" class=" gem" height="100">
-		<img src="./assets/images/purple.jpg" value="gem2" class="image gem" height="100"> 
-		<img src="./assets/images/redgem.jpg" value="gem3" class="image gem" height="100"> 
-		<img src="./assets/images/yellow.jpg" value="gem4" class="image gem" height="100">
-	</div>
+			<div class="totalscore"></div>
+		<div>
+	<!-- </div> -->
 
-	<div class="totalscore"></div>
-
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="./assets/javascript/game.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
  
 </body>
 </html>

@@ -5,7 +5,7 @@ body {
 }
 #section {
 	position: absolute;
-	left: 75vh;
+	left: 50%;
 }
 .header {
 	background-color: orange;

@@ -3,26 +3,18 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-#section {
-	position: absolute;
-	left: 50%;
-}
 .header {
 	background-color: orange;
 	padding: 10px 0px;
-	text-align: center;
 }
-
 #title {
 	font-size: 25px;
 	font-style: bold;
 	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
 .paragraph{
 	background-color: tan;
-	width: 500px;
 	margin-top: 20px;
 	font-size: 20px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -30,8 +22,8 @@ body {
 	padding: 10px 10px;
 	color: green;
 	font-size: 15px;
+	text-align: center;
 }
-
 .randomnumber {
 	background-color: green;
 	width: 200px;
@@ -42,13 +34,12 @@ body {
 	font-weight: bold;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
 .wins {
 	background-color: blue;
 	width: 100px;
 	height: 80px;
 	color: white;
-	float: left;
+	float: right;
 	margin-top: 10px;
 	margin-left: 50px;
 	padding-right: 20px;
@@ -56,7 +47,6 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight: bold;
 }
-
 #wins {
 	margin-top: 5px;
 	margin-bottom: 0px;
@@ -68,18 +58,15 @@ body {
 #chosennumber {
 	margin-top: 10px;
 }
-
 .crystals {
 	clear: both;
 	position: relative;
 	padding-top: 30px;
 	margin-left: 20px;
 }
-
 .image {
 	margin-left: 37px;
 }
-
 img:hover {
 	transition: all .2s ease-in-out;
 	transform: scale(1.1);
